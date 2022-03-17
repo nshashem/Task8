@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
         let dataModel: [WalkModel] = WalksDataManager.getData() 
         
-        mainView.dataModel = dataModel
+        mainView.initView(walks: dataModel)
     }
 
 

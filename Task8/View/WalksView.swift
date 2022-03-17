@@ -30,15 +30,17 @@ class WalksView: UIView {
         addSubview(nibView)
         initTableView()
     }
+    func initView (walks: [WalkModel]){
+        dataModel = walks
+        prepareSectionData(walks: dataModel)
+        tableView.reloadData()
+    }
     
     private func initTableView(){
         tableView.dataSource = self
         tableView.delegate = self
         registerTableViewCells()
         tableView.separatorStyle = UITableViewCell.SeparatorStyle.none
-        tableView.reloadData()
-        prepareSectionData(walks: dataModel)
-        tableView.reloadData()
     }
     
     private func registerTableViewCells() {
