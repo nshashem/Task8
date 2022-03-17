@@ -6,6 +6,7 @@
 //
 
 import Foundation
-struct FullData: Codable{
-    var walks: [Walk]?
+
+struct FullDataModel: Codable{
+    var walks: [WalkModel]?
 }

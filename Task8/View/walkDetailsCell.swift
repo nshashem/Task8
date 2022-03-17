@@ -16,25 +16,28 @@ class walkDetailsCell: UITableViewCell {
     @IBOutlet var taskTagLabel: UILabel!
     @IBOutlet var timeLabel: UILabel!
     @IBOutlet var walkScoreLabel: UILabel!
+    @IBOutlet var noteView: UIView!
     @IBOutlet var noteLabel: UILabel!
+    @IBOutlet var tagsView: UIView!
     @IBOutlet var tagsLabel: UILabel!
+    @IBOutlet var ratingView: UIView!
     @IBOutlet var ratingLabel: UILabel!
-    
     @IBOutlet weak var bottomLineView: UIView!
+    @IBOutlet var ratingImage: UIImageView!
     @IBOutlet weak var topLineView: UIView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        baseViewInit()
-        circleInit()
+        initBaseView()
+        initCircle()
     }
 
-    func baseViewInit(){
+    func initBaseView(){
         baseView.layer.cornerRadius = 10
         baseView.clipsToBounds = true
     }
     
-    func circleInit(){
+    func initCircle(){
         circle.layer.cornerRadius = 10 //Half of square's width or height
     }
     

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Walk: Codable {
+struct WalkModel: Codable {
     var uuid: String?
     var perceiveTime: Int?
     var walkScore: Int?

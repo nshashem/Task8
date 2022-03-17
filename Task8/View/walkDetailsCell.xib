@@ -18,7 +18,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h6a-NV-s9I">
-                        <rect key="frame" x="20" y="162.5" width="20" height="20"/>
+                        <rect key="frame" x="20" y="150" width="20" height="20"/>
                         <color key="backgroundColor" red="1" green="0.75779508235178872" blue="0.90940339154374938" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="20" id="BMj-UB-x8i"/>
@@ -26,32 +26,32 @@
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="4Gh-Z3-Rqc">
-                        <rect key="frame" x="60" y="10" width="409" height="325"/>
+                        <rect key="frame" x="60" y="10" width="409" height="300"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mNC-Dn-dTR">
-                                <rect key="frame" x="0.0" y="0.0" width="5" height="325"/>
+                                <rect key="frame" x="0.0" y="0.0" width="5" height="300"/>
                                 <color key="backgroundColor" red="1" green="0.75779508240000004" blue="0.90940339150000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="5" id="mXi-0v-0l1"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vXZ-eZ-dIi">
-                                <rect key="frame" x="5" y="0.0" width="404" height="325"/>
+                                <rect key="frame" x="5" y="0.0" width="404" height="300"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Q1N-t0-EYF">
-                                        <rect key="frame" x="10" y="5" width="384" height="315"/>
+                                        <rect key="frame" x="10" y="5" width="384" height="290"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8gp-ht-jyo">
-                                                <rect key="frame" x="0.0" y="0.0" width="384" height="51"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="384" height="46"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Aw-KF-VaV">
-                                                        <rect key="frame" x="0.0" y="0.0" width="192" height="51"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="192" height="46"/>
                                                         <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="15"/>
                                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3e-VY-aWs">
-                                                        <rect key="frame" x="192" y="0.0" width="192" height="51"/>
+                                                        <rect key="frame" x="192" y="0.0" width="192" height="46"/>
                                                         <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="15"/>
                                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                                         <nil key="highlightedColor"/>
@@ -59,29 +59,101 @@
                                                 </subviews>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vi1-Rr-dce">
-                                                <rect key="frame" x="0.0" y="66" width="384" height="51"/>
+                                                <rect key="frame" x="0.0" y="61" width="384" height="46"/>
                                                 <fontDescription key="fontDescription" name="MalayalamSangamMN-Bold" family="Malayalam Sangam MN" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mC-YN-yUa">
-                                                <rect key="frame" x="0.0" y="132" width="384" height="51"/>
-                                                <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iS2-so-83n">
-                                                <rect key="frame" x="0.0" y="198" width="384" height="51"/>
-                                                <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gO9-6B-a3J">
-                                                <rect key="frame" x="0.0" y="264" width="384" height="51"/>
-                                                <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qx3-XC-Vwg">
+                                                <rect key="frame" x="0.0" y="122" width="384" height="46"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mC-YN-yUa">
+                                                        <rect key="frame" x="25" y="0.0" width="359" height="46"/>
+                                                        <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FMB-PZ-biw">
+                                                        <rect key="frame" x="0.0" y="15.5" width="20" height="15.5"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="tintColor" systemColor="labelColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="2Os-Gh-aLl"/>
+                                                            <constraint firstAttribute="width" constant="20" id="jRR-X6-Ovq"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="4mC-YN-yUa" secondAttribute="bottom" id="JnZ-A6-EIm"/>
+                                                    <constraint firstItem="FMB-PZ-biw" firstAttribute="leading" secondItem="Qx3-XC-Vwg" secondAttribute="leading" id="MNP-PO-LMQ"/>
+                                                    <constraint firstItem="FMB-PZ-biw" firstAttribute="top" secondItem="Qx3-XC-Vwg" secondAttribute="top" constant="13" id="UgZ-90-4lP"/>
+                                                    <constraint firstAttribute="trailing" secondItem="4mC-YN-yUa" secondAttribute="trailing" id="WPE-tl-SEk"/>
+                                                    <constraint firstItem="4mC-YN-yUa" firstAttribute="leading" secondItem="FMB-PZ-biw" secondAttribute="trailing" constant="5" id="q3v-bR-A2Y"/>
+                                                    <constraint firstAttribute="bottom" secondItem="FMB-PZ-biw" secondAttribute="bottom" constant="13" id="yZS-EA-nOg"/>
+                                                    <constraint firstItem="4mC-YN-yUa" firstAttribute="top" secondItem="Qx3-XC-Vwg" secondAttribute="top" id="z5u-Uu-Yl3"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82g-yk-vSp">
+                                                <rect key="frame" x="0.0" y="183" width="384" height="46"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iS2-so-83n">
+                                                        <rect key="frame" x="25" y="0.0" width="359" height="46"/>
+                                                        <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tag" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="sio-ob-X6C">
+                                                        <rect key="frame" x="0.0" y="13" width="20" height="21"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="tintColor" systemColor="labelColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="CBl-MB-3FE"/>
+                                                            <constraint firstAttribute="width" constant="20" id="Qiw-rh-vOn"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="sio-ob-X6C" secondAttribute="bottom" constant="13" id="1Dw-iI-Bdm"/>
+                                                    <constraint firstItem="iS2-so-83n" firstAttribute="leading" secondItem="sio-ob-X6C" secondAttribute="trailing" constant="5" id="4Xf-gr-KD8"/>
+                                                    <constraint firstAttribute="bottom" secondItem="iS2-so-83n" secondAttribute="bottom" id="TvN-bq-bff"/>
+                                                    <constraint firstItem="sio-ob-X6C" firstAttribute="leading" secondItem="82g-yk-vSp" secondAttribute="leading" id="gcN-hp-egM"/>
+                                                    <constraint firstItem="iS2-so-83n" firstAttribute="top" secondItem="82g-yk-vSp" secondAttribute="top" id="iFk-n6-g8P"/>
+                                                    <constraint firstItem="sio-ob-X6C" firstAttribute="top" secondItem="82g-yk-vSp" secondAttribute="top" constant="13" id="lfi-sr-fQm"/>
+                                                    <constraint firstAttribute="trailing" secondItem="iS2-so-83n" secondAttribute="trailing" id="oNf-zm-4rW"/>
+                                                    <constraint firstItem="iS2-so-83n" firstAttribute="leading" secondItem="sio-ob-X6C" secondAttribute="trailing" constant="5" id="vkc-dV-lK7"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qed-7W-zPa">
+                                                <rect key="frame" x="0.0" y="244" width="384" height="46"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gO9-6B-a3J">
+                                                        <rect key="frame" x="25" y="0.0" width="359" height="46"/>
+                                                        <fontDescription key="fontDescription" name="MalayalamSangamMN" family="Malayalam Sangam MN" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fineSelected" translatesAutoresizingMaskIntoConstraints="NO" id="w1I-3I-cQ7">
+                                                        <rect key="frame" x="0.0" y="13" width="20" height="20"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="20" id="316-8D-J0V"/>
+                                                            <constraint firstAttribute="height" constant="20" id="dIS-6a-LVX"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="gO9-6B-a3J" secondAttribute="trailing" id="01T-hp-a4e"/>
+                                                    <constraint firstItem="gO9-6B-a3J" firstAttribute="leading" secondItem="w1I-3I-cQ7" secondAttribute="trailing" constant="5" id="FGQ-Nv-OVf"/>
+                                                    <constraint firstItem="w1I-3I-cQ7" firstAttribute="leading" secondItem="Qed-7W-zPa" secondAttribute="leading" id="HNi-uI-tdy"/>
+                                                    <constraint firstItem="w1I-3I-cQ7" firstAttribute="top" secondItem="Qed-7W-zPa" secondAttribute="top" constant="13" id="KTS-0I-hCp"/>
+                                                    <constraint firstAttribute="bottom" secondItem="gO9-6B-a3J" secondAttribute="bottom" id="baB-Pm-ezV"/>
+                                                    <constraint firstItem="gO9-6B-a3J" firstAttribute="leading" secondItem="w1I-3I-cQ7" secondAttribute="trailing" constant="5" id="cmn-MQ-2hA"/>
+                                                    <constraint firstItem="gO9-6B-a3J" firstAttribute="top" secondItem="Qed-7W-zPa" secondAttribute="top" id="eSu-HF-Dwp"/>
+                                                    <constraint firstAttribute="bottom" secondItem="w1I-3I-cQ7" secondAttribute="bottom" constant="13" id="zit-8A-a7o"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -105,14 +177,14 @@
                         </constraints>
                     </view>
                     <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="klG-rh-KgN">
-                        <rect key="frame" x="29.5" y="182.5" width="1" height="162.5"/>
+                        <rect key="frame" x="29.5" y="170" width="1" height="150"/>
                         <color key="backgroundColor" red="1" green="0.75779508240000004" blue="0.90940339150000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="1" id="9gk-fi-ea9"/>
                         </constraints>
                     </view>
                     <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N10-PS-wFN">
-                        <rect key="frame" x="29.5" y="0.0" width="1" height="162.5"/>
+                        <rect key="frame" x="29.5" y="0.0" width="1" height="150"/>
                         <color key="backgroundColor" red="1" green="0.75779508240000004" blue="0.90940339150000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="1" id="H87-Gn-EHO"/>
@@ -146,8 +218,12 @@
                 <outlet property="dataStackView" destination="Q1N-t0-EYF" id="aOI-Vq-rVB"/>
                 <outlet property="dataView" destination="vXZ-eZ-dIi" id="Dus-pA-Rnz"/>
                 <outlet property="noteLabel" destination="4mC-YN-yUa" id="UCK-I9-tuu"/>
+                <outlet property="noteView" destination="Qx3-XC-Vwg" id="Wur-wb-bar"/>
+                <outlet property="ratingImage" destination="w1I-3I-cQ7" id="zOu-NC-Iy4"/>
                 <outlet property="ratingLabel" destination="gO9-6B-a3J" id="VlQ-jW-ANo"/>
+                <outlet property="ratingView" destination="Qed-7W-zPa" id="59O-6M-kS9"/>
                 <outlet property="tagsLabel" destination="iS2-so-83n" id="rMn-lP-wEN"/>
+                <outlet property="tagsView" destination="82g-yk-vSp" id="4wm-3q-p0O"/>
                 <outlet property="taskTagLabel" destination="3Aw-KF-VaV" id="E3N-Yg-2tc"/>
                 <outlet property="timeLabel" destination="q3e-VY-aWs" id="tQp-Jg-ldF"/>
                 <outlet property="topLineView" destination="N10-PS-wFN" id="lSB-CU-8ub"/>
@@ -157,6 +233,12 @@
         </tableViewCell>
     </objects>
     <resources>
+        <image name="fineSelected" width="42" height="42"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="tag" catalog="system" width="128" height="119"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Keywords {
+struct Constants {
     static let tableViewCellIdentifier: String = "walkDetailsCell"
     static let jsonData: String = ""
 }
