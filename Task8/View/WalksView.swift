@@ -80,6 +80,7 @@ extension WalksView: UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //or remove if and place return cell ?? UI
         if let cell = tableView.dequeueReusableCell(withIdentifier: Constants.tableViewCellIdentifier) as? walkDetailsCell {
             
             let element = sections[indexPath.section].walks[indexPath.row]
